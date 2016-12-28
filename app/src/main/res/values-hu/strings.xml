@@ -1,0 +1,78 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="detail_activity_name">Részletek</string>
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_map">Térkép</string>
+    <string name="title_activity_settings">Beállítások</string>
+    <string name="action_share">Megosztás</string>
+
+
+    <string name="pref_location_label">Hely</string>
+
+    <string name="pref_units_title">Válaszd ki a mértékegységed</string>
+
+    <!-- Strings related to Art Pack preference -->
+    <string name="pref_art_pack_label">Icon Pack</string>
+    <string name="pref_art_pack_label_sunshine">Sunshine</string>
+    <!--<string name="pref_art_pack_label_cute_dogs">Cute dogs</string> -->
+
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Ma</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Holnap</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Strings for formatting weather-related data -->
+    <!-- Temperature format [CHAR LIMIT=5] -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+        <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh"><xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="format_humidity">Páratartalom: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="weather_icon_for_selected_day">Időjárás ikon a kiválasztott napra.</string>
+    <string name="weather_icon_for_the_day">Időjárás ikon a napra.</string>
+    <string name="weather_icon_for_today">Időjárás ikon mára.</string>
+
+
+    <!-- Notification Format -->
+    <string name="format_notification">
+    Előrejelzés: <xliff:g id="condition">%1$s</xliff:g> Max: <xliff:g id="high">%2$s</xliff:g> Min: <xliff:g id="low">%3$s</xliff:g></string>
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+
+    <string name="pref_enable_notifications_label">Időjárás értesítések</string>
+    <string name="pref_enable_notifications_true">Engedélyezve</string>
+    <string name="pref_enable_notifications_false">Nem Engedélyezve</string>
+
+    <string name="empty_forecast_list">Nincs elérhető információ az időjárásról.</string>
+    <string name="empty_forecast_list_no_network">Nincs elérhető információ az időjárásról. Nem elérhető a hálózat.</string>
+    <string name="empty_forecast_list_server_down">Nincs elérhető információ az időjárásról. A szerver nem válaszol.</string>
+    <string name="empty_forecast_list_server_error">Nincs elérhető információ az időjárásról. A szerver rossz adatokat küld. Töltsd le a Sunshine legújabb verzióját.</string>
+    <string name="empty_forecast_list_invalid_location">Nincs elérhető információ az időjárásról. A beállításokban megadott helyet nem ismeri fel a szerver.</string>
+
+
+    <!-- Strings used when displaying the state of the Location in settings -->
+    <string name="pref_location_error_description">Érvénytelen hely (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_unknown_description">Hely érvényesítése... (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+
+    <string name="gcm_weather_alert">Figyelem : %1$s %2$sben!</string>
+
+    <string name="humidity">Páratartalom</string>
+    <string name="pressure">Nyomás</string>
+    <string name="wind">Szél</string>
+</resources>
